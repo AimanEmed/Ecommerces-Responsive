@@ -1,0 +1,5 @@
+var btn=document.querySelector(".btn-toggle");var box=document.querySelector(".header  .cart .cart-shopping .links ul");btn.onclick=function(){box.classList.toggle("add")}
+function myFunction(x){x.classList.toggle("change")}
+function openNav(){document.getElementById("mySidenav").style.width="250px"}
+function closeNav(){document.getElementById("mySidenav").style.width="0"}
+$('.vendor-carousel').owlCarousel({loop:!0,margin:29,nav:!1,autoplay:!1,smartSpeed:1000,responsive:{0:{items:2},576:{items:3},768:{items:4},992:{items:5},1200:{items:6}}});$(".exclusive-product-carousel").owlCarousel({autoplay:!0,smartSpeed:1500,center:!1,dots:!0,loop:!0,margin:25,nav:!0,navText:['<i class="bi bi-arrow-left"></i>','<i class="bi bi-arrow-right"></i>'],responsiveClass:!0,responsive:{0:{items:1},576:{items:1},768:{items:2},992:{items:3},1200:{items:4}}})
